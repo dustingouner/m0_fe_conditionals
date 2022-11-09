@@ -58,24 +58,24 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
-console.log(4 < 9);
-// YOU DO: Explain. This is a comparison operator to compare two similar data types. 
-// The comparison will result with a true statement
+// console.log(4 < 9);
+// // YOU DO: Explain. This is a comparison operator to compare two similar data types. 
+// // The comparison will result with a true statement
 
-var books = 3;
-console.log(4 < books);
-// YOU DO: Explain. This is a conditional statement using a comparison operator to compare two similar data types 
-// in which the data type for books is also a number.  The comparison will result with a false statement because 4 is less than 3. 
+// var books = 3;
+// // console.log(4 < books);
+// // YOU DO: Explain. This is a conditional statement using a comparison operator to compare two similar data types 
+// // in which the data type for books is also a number.  The comparison will result with a false statement because 4 is less than 3. 
 
-var friends = 6;
-var siblings = 2;
-console.log(friends > siblings);
-// YOU DO: Explain. This is a conditional statement using a comparison operator to compare similar data types which are
-// described by each variable name. The comparison will result in a true statement because the number of friends is greater than siblings. 
+// var friends = 6;
+// var siblings = 2;
+// // console.log(friends > siblings);
+// // YOU DO: Explain. This is a conditional statement using a comparison operator to compare similar data types which are
+// // described by each variable name. The comparison will result in a true statement because the number of friends is greater than siblings. 
 
-var attendees = 9;
-var meals = 8;
-console.log(attendees !== meals);
+// var attendees = 9;
+// var meals = 8;
+// console.log(attendees !== meals);
 // YOU DO: Explain. This is a conditional statement using the comparison operator "not strictly equal" to compare similar data type 
 // values of the variables attendees and meals. The comparison will result in a true statement.  
 
@@ -89,9 +89,9 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
-// Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+// console.log(isHungry && finishedHomework);
+// // Determine if the user is hungry or has completed their homework
+// console.log(isHungry || finishedHomework);
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -100,15 +100,20 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+ console.log(lovesToPlay && lovesTreats)
 
 
-// Determine if the dog loves to play and loves the dog park
+// // Determine if the dog loves to play and loves the dog park
+ console.log(lovesToPlay && lovesDogPark)
 
 
-// Determine if the dog loves to play or loves the dog park
-
+// // Determine if the dog loves to play or loves the dog park
+ console.log(lovesToPlay || lovesDogPark)
 
 // Determine if the dog loves to play and is a puppy
-
+if (lovesToPlay === true && age <= 1) {
+    console.log("yes")
+}
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: I used an if statement to print whether yes or no if my dog loved to play and was a year or less old. 
+// I wasn't sure here if I needed to create a new variable to determine what age defines a puppy or not.  
