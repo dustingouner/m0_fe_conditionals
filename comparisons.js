@@ -59,21 +59,25 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: Explain. This is a comparison operator to compare two similar data types. 
+// The comparison will result with a true statement
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: Explain. This is a conditional statement using a comparison operator to compare two similar data types 
+// in which the data type for books is also a number.  The comparison will result with a false statement because 4 is less than 3. 
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain. This is a conditional statement using a comparison operator to compare similar data types which are
+// described by each variable name. The comparison will result in a true statement because the number of friends is greater than siblings. 
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: Explain. This is a conditional statement using the comparison operator "not strictly equal" to compare similar data type 
+// values of the variables attendees and meals. The comparison will result in a true statement.  
 
 
 // #-------------------
